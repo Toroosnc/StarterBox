@@ -1,0 +1,6 @@
+Items: {
+	StarterBagItem: {
+		Tooltip: ""
+		DisplayName: Starter Bag Item
+	}
+}
