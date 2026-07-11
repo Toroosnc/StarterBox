@@ -1,4 +1,4 @@
-# 📦 Starter Box
+# Starter Box
 
 A [tModLoader](https://github.com/tModLoader/tModLoader) mod for Terraria that gives you a running start! When you enter a world for the first time, you automatically receive a **Starter Box** — right-click it to open.
 
