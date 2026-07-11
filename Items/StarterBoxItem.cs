@@ -3,11 +3,11 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using StarterBag.Systems;
+using StarterBox.Systems;
 
-namespace StarterBag.Items
+namespace StarterBox.Items
 {
-    public class StarterBagItem : ModItem
+    public class StarterBoxItem : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -30,7 +30,7 @@ namespace StarterBag.Items
 
         public override void RightClick(Player player)
         {
-            IEntitySource source = player.GetSource_Misc("StarterBagOpen");
+            IEntitySource source = player.GetSource_Misc("StarterBoxOpen");
 
             GiveClassWeapons(player, source);
             GiveResources(player, source);
@@ -83,7 +83,7 @@ namespace StarterBag.Items
 
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
-            tooltips.Add(new TooltipLine(Mod, "StarterBagDescription",
+            tooltips.Add(new TooltipLine(Mod, "StarterBoxDescription",
                 "Right click to open.\n" +
                 "Contains starter weapons for Mage, Melee, Ranger, and Summoner,\n" +
                 "as well as Life Crystals, Mana Crystals, coins, and Lesser Healing Potions.\n" +

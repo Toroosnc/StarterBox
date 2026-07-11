@@ -1,6 +1,6 @@
 Items: {
-	StarterBagItem: {
+	StarterBoxItem: {
 		Tooltip: ""
-		DisplayName: Starter Bag Item
+		DisplayName: Starter Box Item
 	}
 }

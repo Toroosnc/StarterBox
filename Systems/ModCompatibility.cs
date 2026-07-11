@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace StarterBag.Systems
+namespace StarterBox.Systems
 {
     public class ModCompatibility : ModSystem
     {
