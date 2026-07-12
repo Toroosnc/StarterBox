@@ -8,7 +8,7 @@ A [tModLoader](https://github.com/tModLoader/tModLoader) mod for Terraria that g
 ## Features
 
 - Automatically given to every character the first time they enter a world
-- Starter weapons for **all four classes**:
+- Starter weapons for **all four classes**
 - Life Crystal & Mana Crystal
 - Gold Coins
 - Lesser Healing Potion
